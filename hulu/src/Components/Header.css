@@ -47,3 +47,13 @@
   width: 100px;
   cursor: pointer;
 }
+
+/* Hide scrollbar chrome, safari, opera */
+.header::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scroll bar IE, Edge and firefox */
+.header {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
